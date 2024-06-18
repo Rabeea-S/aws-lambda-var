@@ -1,0 +1,1 @@
+-d1 -y --installroot=/tmp/root --releasever=2 install nspr nss-softokn-freebl nss-util coreutils glibc-all-langpacks libicu fontconfig

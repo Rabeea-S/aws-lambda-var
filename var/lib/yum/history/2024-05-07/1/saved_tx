@@ -1,0 +1,210 @@
+0:da39a3ee5e6b4b0d3255bfef95601890afd80709
+0
+1
+installed:23:cfcef19a49f1f281cd74048c839db8b7e1bb9e01
+23
+mbr: ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: bash,x86_64,0,4.2.46,34.amzn2@a:dependson
+  depends_on: bash,x86_64,0,4.2.46,34.amzn2@a
+mbr: libtasn1,x86_64,0,4.10,1.amzn2.0.6 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson
+  depends_on: p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a
+mbr: basesystem,noarch,0,10.0,7.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: glibc,x86_64,0,2.26,64.amzn2.0.1@a:dependson
+  depends_on: glibc,x86_64,0,2.26,64.amzn2.0.1@a
+mbr: libffi,x86_64,0,3.0.13,18.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson
+  depends_on: p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a
+mbr: tzdata,noarch,0,2024a,1.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: glibc-common,x86_64,0,2.26,64.amzn2.0.1@a:dependson
+  depends_on: glibc-common,x86_64,0,2.26,64.amzn2.0.1@a
+mbr: libstdc++,x86_64,0,7.3.1,17.amzn2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: pcre,x86_64,0,8.32,17.amzn2.0.3@a:dependson
+  depends_on: pcre,x86_64,0,8.32,17.amzn2.0.3@a
+mbr: ca-certificates,noarch,0,2023.2.64,1.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: system-release,x86_64,1,2,16.amzn2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: setup,noarch,0,2.8.71,10.amzn2.0.1@a:dependson
+  depends_on: setup,noarch,0,2.8.71,10.amzn2.0.1@a
+mbr: bash,x86_64,0,4.2.46,34.amzn2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: ca-certificates,noarch,0,2023.2.64,1.amzn2.0.1@a:dependson system-release,x86_64,1,2,16.amzn2@a:dependson system-release,x86_64,1,2,16.amzn2@a:dependson p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson chkconfig,x86_64,0,1.7.4,1.amzn2.0.2@a:dependson glibc-common,x86_64,0,2.26,64.amzn2.0.1@a:dependson glibc-common,x86_64,0,2.26,64.amzn2.0.1@a:dependson libsepol,x86_64,0,2.5,10.amzn2.0.1@a:dependson filesystem,x86_64,0,3.2,25.amzn2.0.4@a:dependson
+  depends_on: ca-certificates,noarch,0,2023.2.64,1.amzn2.0.1@a system-release,x86_64,1,2,16.amzn2@a system-release,x86_64,1,2,16.amzn2@a p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a chkconfig,x86_64,0,1.7.4,1.amzn2.0.2@a glibc-common,x86_64,0,2.26,64.amzn2.0.1@a glibc-common,x86_64,0,2.26,64.amzn2.0.1@a libsepol,x86_64,0,2.5,10.amzn2.0.1@a filesystem,x86_64,0,3.2,25.amzn2.0.4@a
+mbr: glibc-minimal-langpack,x86_64,0,2.26,64.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: glibc,x86_64,0,2.26,64.amzn2.0.1@a:dependson
+  depends_on: glibc,x86_64,0,2.26,64.amzn2.0.1@a
+mbr: p11-kit,x86_64,0,0.23.22,1.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: ca-certificates,noarch,0,2023.2.64,1.amzn2.0.1@a:dependson p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson
+  depends_on: ca-certificates,noarch,0,2023.2.64,1.amzn2.0.1@a p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a
+mbr: popt,x86_64,0,1.13,16.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: chkconfig,x86_64,0,1.7.4,1.amzn2.0.2@a:dependson
+  depends_on: chkconfig,x86_64,0,1.7.4,1.amzn2.0.2@a
+mbr: libgcc,x86_64,0,7.3.1,17.amzn2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: pcre,x86_64,0,8.32,17.amzn2.0.3@a:dependson libstdc++,x86_64,0,7.3.1,17.amzn2@a:dependson libstdc++,x86_64,0,7.3.1,17.amzn2@a:dependson libstdc++,x86_64,0,7.3.1,17.amzn2@a:dependson libstdc++,x86_64,0,7.3.1,17.amzn2@a:dependson
+  depends_on: pcre,x86_64,0,8.32,17.amzn2.0.3@a libstdc++,x86_64,0,7.3.1,17.amzn2@a libstdc++,x86_64,0,7.3.1,17.amzn2@a libstdc++,x86_64,0,7.3.1,17.amzn2@a libstdc++,x86_64,0,7.3.1,17.amzn2@a
+mbr: setup,noarch,0,2.8.71,10.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: basesystem,noarch,0,10.0,7.amzn2.0.1@a:dependson filesystem,x86_64,0,3.2,25.amzn2.0.4@a:dependson
+  depends_on: basesystem,noarch,0,10.0,7.amzn2.0.1@a filesystem,x86_64,0,3.2,25.amzn2.0.4@a
+mbr: chkconfig,x86_64,0,1.7.4,1.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson
+  depends_on: p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a
+mbr: ncurses-base,noarch,0,6.0,8.20170212.amzn2.1.8 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8@a:dependson
+  depends_on: ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8@a
+mbr: glibc,x86_64,0,2.26,64.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: bash,x86_64,0,4.2.46,34.amzn2@a:dependson p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a:dependson chkconfig,x86_64,0,1.7.4,1.amzn2.0.2@a:dependson chkconfig,x86_64,0,1.7.4,1.amzn2.0.2@a:dependson libffi,x86_64,0,3.0.13,18.amzn2.0.2@a:dependson libffi,x86_64,0,3.0.13,18.amzn2.0.2@a:dependson libffi,x86_64,0,3.0.13,18.amzn2.0.2@a:dependson libffi,x86_64,0,3.0.13,18.amzn2.0.2@a:dependson libtasn1,x86_64,0,4.10,1.amzn2.0.6@a:dependson libtasn1,x86_64,0,4.10,1.amzn2.0.6@a:dependson libtasn1,x86_64,0,4.10,1.amzn2.0.6@a:dependson libtasn1,x86_64,0,4.10,1.amzn2.0.6@a:dependson ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8@a:dependson ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8@a:dependson ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8@a:dependson ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8@a:dependson ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8@a:dependson ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8@a:dependson glibc-common,x86_64,0,2.26,64.amzn2.0.1@a:dependson glibc-common,x86_64,0,2.26,64.amzn2.0.1@a:dependson glibc-common,x86_64,0,2.26,64.amzn2.0.1@a:dependson glibc-common,x86_64,0,2.26,64.amzn2.0.1@a:dependson glibc-minimal-langpack,x86_64,0,2.26,64.amzn2.0.1@a:dependson libselinux,x86_64,0,2.5,12.amzn2.0.2@a:dependson libselinux,x86_64,0,2.5,12.amzn2.0.2@a:dependson libselinux,x86_64,0,2.5,12.amzn2.0.2@a:dependson libselinux,x86_64,0,2.5,12.amzn2.0.2@a:dependson libselinux,x86_64,0,2.5,12.amzn2.0.2@a:dependson libselinux,x86_64,0,2.5,12.amzn2.0.2@a:dependson libselinux,x86_64,0,2.5,12.amzn2.0.2@a:dependson libselinux,x86_64,0,2.5,12.amzn2.0.2@a:dependson libsepol,x86_64,0,2.5,10.amzn2.0.1@a:dependson libsepol,x86_64,0,2.5,10.amzn2.0.1@a:dependson libsepol,x86_64,0,2.5,10.amzn2.0.1@a:dependson popt,x86_64,0,1.13,16.amzn2.0.2@a:dependson popt,x86_64,0,1.13,16.amzn2.0.2@a:dependson popt,x86_64,0,1.13,16.amzn2.0.2@a:dependson popt,x86_64,0,1.13,16.amzn2.0.2@a:dependson pcre,x86_64,0,8.32,17.amzn2.0.3@a:dependson pcre,x86_64,0,8.32,17.amzn2.0.3@a:dependson pcre,x86_64,0,8.32,17.amzn2.0.3@a:dependson pcre,x86_64,0,8.32,17.amzn2.0.3@a:dependson pcre,x86_64,0,8.32,17.amzn2.0.3@a:dependson pcre,x86_64,0,8.32,17.amzn2.0.3@a:dependson pcre,x86_64,0,8.32,17.amzn2.0.3@a:dependson libgcc,x86_64,0,7.3.1,17.amzn2@a:dependson libgcc,x86_64,0,7.3.1,17.amzn2@a:dependson libstdc++,x86_64,0,7.3.1,17.amzn2@a:dependson libstdc++,x86_64,0,7.3.1,17.amzn2@a:dependson libstdc++,x86_64,0,7.3.1,17.amzn2@a:dependson libstdc++,x86_64,0,7.3.1,17.amzn2@a:dependson libstdc++,x86_64,0,7.3.1,17.amzn2@a:dependson libstdc++,x86_64,0,7.3.1,17.amzn2@a:dependson libstdc++,x86_64,0,7.3.1,17.amzn2@a:dependson libstdc++,x86_64,0,7.3.1,17.amzn2@a:dependson libstdc++,x86_64,0,7.3.1,17.amzn2@a:dependson
+  depends_on: bash,x86_64,0,4.2.46,34.amzn2@a p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1@a chkconfig,x86_64,0,1.7.4,1.amzn2.0.2@a chkconfig,x86_64,0,1.7.4,1.amzn2.0.2@a libffi,x86_64,0,3.0.13,18.amzn2.0.2@a libffi,x86_64,0,3.0.13,18.amzn2.0.2@a libffi,x86_64,0,3.0.13,18.amzn2.0.2@a libffi,x86_64,0,3.0.13,18.amzn2.0.2@a libtasn1,x86_64,0,4.10,1.amzn2.0.6@a libtasn1,x86_64,0,4.10,1.amzn2.0.6@a libtasn1,x86_64,0,4.10,1.amzn2.0.6@a libtasn1,x86_64,0,4.10,1.amzn2.0.6@a ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8@a ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8@a ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8@a ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8@a ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8@a ncurses-libs,x86_64,0,6.0,8.20170212.amzn2.1.8@a glibc-common,x86_64,0,2.26,64.amzn2.0.1@a glibc-common,x86_64,0,2.26,64.amzn2.0.1@a glibc-common,x86_64,0,2.26,64.amzn2.0.1@a glibc-common,x86_64,0,2.26,64.amzn2.0.1@a glibc-minimal-langpack,x86_64,0,2.26,64.amzn2.0.1@a libselinux,x86_64,0,2.5,12.amzn2.0.2@a libselinux,x86_64,0,2.5,12.amzn2.0.2@a libselinux,x86_64,0,2.5,12.amzn2.0.2@a libselinux,x86_64,0,2.5,12.amzn2.0.2@a libselinux,x86_64,0,2.5,12.amzn2.0.2@a libselinux,x86_64,0,2.5,12.amzn2.0.2@a libselinux,x86_64,0,2.5,12.amzn2.0.2@a libselinux,x86_64,0,2.5,12.amzn2.0.2@a libsepol,x86_64,0,2.5,10.amzn2.0.1@a libsepol,x86_64,0,2.5,10.amzn2.0.1@a libsepol,x86_64,0,2.5,10.amzn2.0.1@a popt,x86_64,0,1.13,16.amzn2.0.2@a popt,x86_64,0,1.13,16.amzn2.0.2@a popt,x86_64,0,1.13,16.amzn2.0.2@a popt,x86_64,0,1.13,16.amzn2.0.2@a pcre,x86_64,0,8.32,17.amzn2.0.3@a pcre,x86_64,0,8.32,17.amzn2.0.3@a pcre,x86_64,0,8.32,17.amzn2.0.3@a pcre,x86_64,0,8.32,17.amzn2.0.3@a pcre,x86_64,0,8.32,17.amzn2.0.3@a pcre,x86_64,0,8.32,17.amzn2.0.3@a pcre,x86_64,0,8.32,17.amzn2.0.3@a libgcc,x86_64,0,7.3.1,17.amzn2@a libgcc,x86_64,0,7.3.1,17.amzn2@a libstdc++,x86_64,0,7.3.1,17.amzn2@a libstdc++,x86_64,0,7.3.1,17.amzn2@a libstdc++,x86_64,0,7.3.1,17.amzn2@a libstdc++,x86_64,0,7.3.1,17.amzn2@a libstdc++,x86_64,0,7.3.1,17.amzn2@a libstdc++,x86_64,0,7.3.1,17.amzn2@a libstdc++,x86_64,0,7.3.1,17.amzn2@a libstdc++,x86_64,0,7.3.1,17.amzn2@a libstdc++,x86_64,0,7.3.1,17.amzn2@a
+mbr: libsepol,x86_64,0,2.5,10.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: chkconfig,x86_64,0,1.7.4,1.amzn2.0.2@a:dependson libselinux,x86_64,0,2.5,12.amzn2.0.2@a:dependson libselinux,x86_64,0,2.5,12.amzn2.0.2@a:dependson libselinux,x86_64,0,2.5,12.amzn2.0.2@a:dependson
+  depends_on: chkconfig,x86_64,0,1.7.4,1.amzn2.0.2@a libselinux,x86_64,0,2.5,12.amzn2.0.2@a libselinux,x86_64,0,2.5,12.amzn2.0.2@a libselinux,x86_64,0,2.5,12.amzn2.0.2@a
+mbr: pcre,x86_64,0,8.32,17.amzn2.0.3 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libselinux,x86_64,0,2.5,12.amzn2.0.2@a:dependson
+  depends_on: libselinux,x86_64,0,2.5,12.amzn2.0.2@a
+mbr: libselinux,x86_64,0,2.5,12.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: chkconfig,x86_64,0,1.7.4,1.amzn2.0.2@a:dependson glibc-common,x86_64,0,2.26,64.amzn2.0.1@a:dependson
+  depends_on: chkconfig,x86_64,0,1.7.4,1.amzn2.0.2@a glibc-common,x86_64,0,2.26,64.amzn2.0.1@a
+mbr: p11-kit-trust,x86_64,0,0.23.22,1.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: ca-certificates,noarch,0,2023.2.64,1.amzn2.0.1@a:dependson
+  depends_on: ca-certificates,noarch,0,2023.2.64,1.amzn2.0.1@a
+mbr: glibc-common,x86_64,0,2.26,64.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: glibc,x86_64,0,2.26,64.amzn2.0.1@a:dependson glibc-minimal-langpack,x86_64,0,2.26,64.amzn2.0.1@a:dependson
+  depends_on: glibc,x86_64,0,2.26,64.amzn2.0.1@a glibc-minimal-langpack,x86_64,0,2.26,64.amzn2.0.1@a
+mbr: filesystem,x86_64,0,3.2,25.amzn2.0.4 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: basesystem,noarch,0,10.0,7.amzn2.0.1@a:dependson
+  depends_on: basesystem,noarch,0,10.0,7.amzn2.0.1@a

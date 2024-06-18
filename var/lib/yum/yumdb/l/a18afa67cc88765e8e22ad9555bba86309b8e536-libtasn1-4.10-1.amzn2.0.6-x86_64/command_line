@@ -1,0 +1,1 @@
+-d1 -y --installroot=/tmp/root --releasever=2 install ca-certificates system-release

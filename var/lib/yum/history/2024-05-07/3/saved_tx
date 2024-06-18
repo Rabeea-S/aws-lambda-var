@@ -1,0 +1,246 @@
+53:10714286b0ea461b93c1713370b332de02c9c0cb
+0
+1
+installed:80:d3af82aaa39f60dac9d886293773e38081f8e9d1
+27
+mbr: libcurl,x86_64,0,8.3.0,1.amzn2.0.7 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: curl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson
+  depends_on: curl,x86_64,0,8.3.0,1.amzn2.0.7@a
+mbr: nss-tools,x86_64,0,3.90.0,2.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: openldap,x86_64,0,2.4.44,25.amzn2.0.7@a:dependson
+  depends_on: openldap,x86_64,0,2.4.44,25.amzn2.0.7@a
+mbr: readline,x86_64,0,6.2,10.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: lua,x86_64,0,5.1.4,15.amzn2.0.2@a:dependson sqlite,x86_64,0,3.7.17,8.amzn2.1.2@a:dependson
+  depends_on: lua,x86_64,0,5.1.4,15.amzn2.0.2@a sqlite,x86_64,0,3.7.17,8.amzn2.1.2@a
+mbr: xz-libs,x86_64,0,5.2.2,1.amzn2.0.3 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libxml2,x86_64,0,2.9.1,6.amzn2.5.13@a:dependson rpm,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson
+  depends_on: libxml2,x86_64,0,2.9.1,6.amzn2.5.13@a rpm,x86_64,0,4.11.3,48.amzn2.0.4@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a
+mbr: libssh2,x86_64,0,1.4.3,12.amzn2.2.6 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: curl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson
+  depends_on: curl,x86_64,0,8.3.0,1.amzn2.0.7@a libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a
+mbr: publicsuffix-list-dafsa,noarch,0,20240208,1.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libpsl,x86_64,0,0.21.5,1.amzn2@a:dependson
+  depends_on: libpsl,x86_64,0,0.21.5,1.amzn2@a
+mbr: nss-softokn,x86_64,0,3.90.0,6.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: nss,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson
+  depends_on: nss,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a
+mbr: libdb-utils,x86_64,0,5.3.21,24.amzn2.0.5 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: rpm,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson
+  depends_on: rpm,x86_64,0,4.11.3,48.amzn2.0.4@a
+mbr: rpm,x86_64,0,4.11.3,48.amzn2.0.4 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: openldap,x86_64,0,2.4.44,25.amzn2.0.7@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson
+  depends_on: openldap,x86_64,0,2.4.44,25.amzn2.0.7@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a
+mbr: openldap,x86_64,0,2.4.44,25.amzn2.0.7 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: curl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson
+  depends_on: curl,x86_64,0,8.3.0,1.amzn2.0.7@a libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a
+mbr: libunistring,x86_64,0,0.9.3,9.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libidn2,x86_64,0,2.3.0,1.amzn2.0.3@a:dependson libpsl,x86_64,0,0.21.5,1.amzn2@a:dependson
+  depends_on: libidn2,x86_64,0,2.3.0,1.amzn2.0.3@a libpsl,x86_64,0,0.21.5,1.amzn2@a
+mbr: libdb,x86_64,0,5.3.21,24.amzn2.0.5 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: cyrus-sasl-lib,x86_64,0,2.1.26,24.amzn2@a:dependson rpm,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson libdb-utils,x86_64,0,5.3.21,24.amzn2.0.5@a:dependson libdb-utils,x86_64,0,5.3.21,24.amzn2.0.5@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson
+  depends_on: cyrus-sasl-lib,x86_64,0,2.1.26,24.amzn2@a rpm,x86_64,0,4.11.3,48.amzn2.0.4@a libdb-utils,x86_64,0,5.3.21,24.amzn2.0.5@a libdb-utils,x86_64,0,5.3.21,24.amzn2.0.5@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a
+mbr: curl,x86_64,0,8.3.0,1.amzn2.0.7 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: rpm,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson
+  depends_on: rpm,x86_64,0,4.11.3,48.amzn2.0.4@a
+mbr: libnghttp2,x86_64,0,1.41.0,1.amzn2.0.5 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: curl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson
+  depends_on: curl,x86_64,0,8.3.0,1.amzn2.0.7@a libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a
+mbr: sqlite,x86_64,0,3.7.17,8.amzn2.1.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: nss-softokn,x86_64,0,3.90.0,6.amzn2.0.2@a:dependson
+  depends_on: nss-softokn,x86_64,0,3.90.0,6.amzn2.0.2@a
+mbr: libidn2,x86_64,0,2.3.0,1.amzn2.0.3 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: curl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson libpsl,x86_64,0,0.21.5,1.amzn2@a:dependson libpsl,x86_64,0,0.21.5,1.amzn2@a:dependson
+  depends_on: curl,x86_64,0,8.3.0,1.amzn2.0.7@a libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a libpsl,x86_64,0,0.21.5,1.amzn2@a libpsl,x86_64,0,0.21.5,1.amzn2@a
+mbr: cyrus-sasl-lib,x86_64,0,2.1.26,24.amzn2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: openldap,x86_64,0,2.4.44,25.amzn2.0.7@a:dependson
+  depends_on: openldap,x86_64,0,2.4.44,25.amzn2.0.7@a
+mbr: nss,x86_64,0,3.90.0,2.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: openldap,x86_64,0,2.4.44,25.amzn2.0.7@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson rpm,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson nss-pem,x86_64,0,1.0.3,5.amzn2@a:dependson nss-pem,x86_64,0,1.0.3,5.amzn2@a:dependson nss-pem,x86_64,0,1.0.3,5.amzn2@a:dependson nss-pem,x86_64,0,1.0.3,5.amzn2@a:dependson nss-sysinit,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson
+  depends_on: openldap,x86_64,0,2.4.44,25.amzn2.0.7@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a nss-tools,x86_64,0,3.90.0,2.amzn2.0.2@a rpm,x86_64,0,4.11.3,48.amzn2.0.4@a nss-pem,x86_64,0,1.0.3,5.amzn2@a nss-pem,x86_64,0,1.0.3,5.amzn2@a nss-pem,x86_64,0,1.0.3,5.amzn2@a nss-pem,x86_64,0,1.0.3,5.amzn2@a nss-sysinit,x86_64,0,3.90.0,2.amzn2.0.2@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a
+mbr: nss-sysinit,x86_64,0,3.90.0,2.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: nss,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson
+  depends_on: nss,x86_64,0,3.90.0,2.amzn2.0.2@a
+mbr: rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: rpm,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson
+  depends_on: rpm,x86_64,0,4.11.3,48.amzn2.0.4@a
+mbr: libcrypt,x86_64,0,2.26,64.amzn2.0.1 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: cyrus-sasl-lib,x86_64,0,2.1.26,24.amzn2@a:dependson
+  depends_on: cyrus-sasl-lib,x86_64,0,2.1.26,24.amzn2@a
+mbr: findutils,x86_64,1,4.5.11,6.amzn2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: openldap,x86_64,0,2.4.44,25.amzn2.0.7@a:dependson
+  depends_on: openldap,x86_64,0,2.4.44,25.amzn2.0.7@a
+mbr: nss-pem,x86_64,0,1.0.3,5.amzn2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: nss,x86_64,0,3.90.0,2.amzn2.0.2@a:dependson
+  depends_on: nss,x86_64,0,3.90.0,2.amzn2.0.2@a
+mbr: lua,x86_64,0,5.1.4,15.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: rpm,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson
+  depends_on: rpm,x86_64,0,4.11.3,48.amzn2.0.4@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a
+mbr: libpsl,x86_64,0,0.21.5,1.amzn2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: curl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a:dependson
+  depends_on: curl,x86_64,0,8.3.0,1.amzn2.0.7@a libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a libcurl,x86_64,0,8.3.0,1.amzn2.0.7@a
+mbr: libxml2,x86_64,0,2.9.1,6.amzn2.5.13 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: elfutils-libelf,x86_64,0,0.176,2.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: rpm,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a:dependson
+  depends_on: rpm,x86_64,0,4.11.3,48.amzn2.0.4@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a rpm-libs,x86_64,0,4.11.3,48.amzn2.0.4@a
